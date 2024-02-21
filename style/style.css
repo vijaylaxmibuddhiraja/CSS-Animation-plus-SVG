@@ -8,32 +8,40 @@ body {
     background: rgb(167, 167, 244);
 }
 
-/*.twin1 {
+.twin1 {
     mix-blend-mode: multiply;
-    margin-top: 25px;
-    margin-left: 30px;
-    padding: 20px;
-      
+    padding: 10px;
+    display:inline-block;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 10%;
 }
 
 .twin1 {
-    object-fit: contain;
-    animation: imgRotate 3.5s ease infinite;
-    animation-direction:initial;
+    
+    animation: imgRotate 4.5s ease infinite;
+    animation-direction:alternate-reverse;
 }
 
 .twin1:hover {
     animation-play-state: paused;
 }
-*/
 
+@keyframes imgRotate {
+    0% {transform: scale(1) rotate(0deg);}
+    50% {transform: scale(1.1) rotate(45deg);}
+    100% {transform: scale(1) rotate(0deg);}
+}
 
 .twin2 {
-    position: relative;
-    display:inline-flex;
-    flex-direction: row;
+    margin-left: 44%;
     margin-top: 5%;
-    margin-left: 75%;
+    padding: 10px;
+    display:inline-block;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
     mix-blend-mode: multiply;   
 }
 
