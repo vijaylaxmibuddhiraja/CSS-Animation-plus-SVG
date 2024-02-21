@@ -6,6 +6,7 @@
 body {
     
     background: rgb(167, 167, 244);
+    height: 100vh;
 }
 
 .twin1 {
@@ -111,6 +112,14 @@ body {
     font-weight: 200;
     font-size: 40px;
 }
+
+.transit svg {
+    display:inline-flex;
+    flex-direction: row;
+    margin-left: 20%;
+    mix-blend-mode: multiply;  
+}
+
 
 /*.invite h2 {
     animation: transitionIn 0.8s;
