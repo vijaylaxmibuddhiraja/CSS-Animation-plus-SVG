@@ -8,9 +8,55 @@ body {
     background: rgb(167, 167, 244);
 }
 
-.birthday {
-    margin: 10%;
+/*.twin1 {
+    mix-blend-mode: multiply;
+    margin-top: 25px;
+    margin-left: 30px;
     padding: 20px;
+    height: 20px;   
+}
+
+.twin1 {
+    object-fit: contain;
+    animation: imgRotate 3.5s ease infinite;
+    animation-direction:initial;
+}
+
+.twin1:hover {
+    animation-play-state: paused;
+}
+
+@keyframes imgRotate {
+    0% {transform: scale(1) rotate(0deg);}
+    50% {transform: scale(1.1)rotate(15deg);}
+    100% {transform: scale(1) rotate(0deg);}
+}
+*/
+.twin2 {
+    position: relative;
+    display:inline-flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 75%;
+    mix-blend-mode: multiply;   
+}
+
+.twin2 {
+    animation: imgRotate 4.5s ease infinite;
+    animation-direction:alternate-reverse;
+}
+
+.twin2:hover {
+    animation-play-state: paused;
+}
+
+@keyframes imgRotate {
+    0% {transform: scale(1) rotate(0deg);}
+    50% {transform: scale(1.1) rotate(45deg);}
+    100% {transform: scale(1) rotate(0deg);}
+}
+
+.birthday {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +70,7 @@ body {
     color:black;
 }
 
-.birthday h1 {
+.birthday h1{
     background: linear-gradient(45deg,red,blue,rgb(250, 183, 58));
     font-family: "Protest Riot", sans-serif;
     font-weight: 400;
@@ -61,5 +107,29 @@ body {
     font-weight: 200;
     font-size: 40px;
 }
+
+/*.invite h2 {
+    animation: transitionIn 0.8s;
+    
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX('-15deg');
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX('0');
+    }
+}
+*/
+.transit:hover {
+    color: rgb(189, 12, 12);
+    transition: all 0.9s ease-in-out;
+    transition-delay: 0.5s;
+}
+
    
    
