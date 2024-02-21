@@ -21,7 +21,7 @@ body {
 
 .twin1 {
     
-    animation: imgRotate 4.5s ease infinite;
+    animation: imgRotate 2.5s ease infinite;
     animation-direction:alternate-reverse;
 }
 
@@ -31,7 +31,8 @@ body {
 
 @keyframes imgRotate {
     0% {transform: scale(1) rotate(0deg);}
-    50% {transform: scale(1.1) rotate(45deg);}
+    50% {transform: scale(1.1) rotate(35deg);}
+    75%{transform: scale(1.2) rotate(-30deg);}
     100% {transform: scale(1) rotate(0deg);}
 }
 
@@ -47,7 +48,7 @@ body {
 }
 
 .twin2 {
-    animation: imgRotate 4.5s ease infinite;
+    animation: imgRotate 2.5s ease infinite;
     animation-direction:alternate-reverse;
 }
 
@@ -57,7 +58,8 @@ body {
 
 @keyframes imgRotate {
     0% {transform: scale(1) rotate(0deg);}
-    50% {transform: scale(1.1) rotate(45deg);}
+    50% {transform: scale(1.1) rotate(35deg);}
+    75%{transform: scale(1.2) rotate(-30deg);}
     100% {transform: scale(1) rotate(0deg);}
 }
 
@@ -120,6 +122,13 @@ body {
     mix-blend-mode: multiply;  
 }
 
+.transit svg:hover {
+    fill: red;
+    transition: all 0.9s ease-in-out;
+    transition-delay: 0.05s;
+    cursor: pointer;
+}
+
 
 /*.invite h2 {
     animation: transitionIn 0.8s;
@@ -139,9 +148,9 @@ body {
 }
 */
 .transit:hover {
-    color: rgb(189, 12, 12);
+    color:  rgb(189, 12, 12);
     transition: all 0.9s ease-in-out;
-    transition-delay: 0.5s;
+    transition-delay: 0.05s;
 }
 
    
