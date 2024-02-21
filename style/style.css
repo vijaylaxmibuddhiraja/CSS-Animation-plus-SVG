@@ -13,7 +13,7 @@ body {
     margin-top: 25px;
     margin-left: 30px;
     padding: 20px;
-    height: 20px;   
+      
 }
 
 .twin1 {
@@ -25,13 +25,9 @@ body {
 .twin1:hover {
     animation-play-state: paused;
 }
-
-@keyframes imgRotate {
-    0% {transform: scale(1) rotate(0deg);}
-    50% {transform: scale(1.1)rotate(15deg);}
-    100% {transform: scale(1) rotate(0deg);}
-}
 */
+
+
 .twin2 {
     position: relative;
     display:inline-flex;
