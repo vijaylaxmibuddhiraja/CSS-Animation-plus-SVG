@@ -9,6 +9,7 @@ body {
     height: 100vh;
 }
 
+
 .twin1 {
     mix-blend-mode: multiply;
     padding: 10px;
@@ -63,6 +64,14 @@ body {
     100% {transform: scale(1) rotate(0deg);}
 }
 
+.birthday img {
+    margin-left: 10%;
+}
+
+.birthday img {
+
+}
+
 .birthday {
     display: flex;
     flex-direction: column;
@@ -112,15 +121,19 @@ body {
     font-family: "Dancing Script", "cursive";
     font-weight: 200;
     font-size: 40px;
+    left: 10%;
 }
 
 .transit svg {
     display:inline-flex;
     flex-direction: row;
-    margin-left: 20%;
+    margin-left: 10%;
     mix-blend-mode: multiply;  
 }
 
+.transit {
+   margin-left: 10%;
+}
 .transit svg:hover {
     fill: red;
     transition: all 0.9s ease-in-out;
