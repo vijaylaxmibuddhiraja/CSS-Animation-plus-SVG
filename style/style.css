@@ -7,8 +7,8 @@ body {
     
     background: rgb(167, 167, 244);
     height: 100vh;
+    
 }
-
 
 .twin1 {
     mix-blend-mode: multiply;
@@ -68,9 +68,6 @@ body {
     margin-left: 10%;
 }
 
-.birthday img {
-
-}
 
 .birthday {
     display: flex;
@@ -92,7 +89,7 @@ body {
     font-weight: 400;
     font-size: 80px;
     font-style: normal;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     
 }
@@ -102,7 +99,7 @@ body {
     font-weight: 400;
     font-size: 80px;
     font-style: normal;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;   
 } 
 .invite { 
