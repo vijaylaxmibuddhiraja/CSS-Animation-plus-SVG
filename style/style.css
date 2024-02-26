@@ -35,35 +35,12 @@ header {
     100% {transform: scale(1) rotate(0deg);}
 }
 
-/*.twin2 {
-    margin-left: 44%;
-    margin-top: 5%;
-    padding: 10px;
-    display:inline-block;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    mix-blend-mode: multiply;   
-}
-
-.twin2 {
-    animation: imgRotate 2.5s ease infinite;
-    animation-direction:alternate-reverse;
-}
-
-.twin2:hover {
-    animation-play-state: paused;
-}
-
-@keyframes imgRotate {
-    0% {transform: scale(1) rotate(0deg);}
-    50% {transform: scale(1.1) rotate(35deg);}
-    75%{transform: scale(1.2) rotate(-30deg);}
-    100% {transform: scale(1) rotate(0deg);}
-}
-*/
-.birthday img {
-    margin-left: 10%;
+.img {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    max-width: 100px;
+    height: 20px;
 }
 
 
@@ -117,6 +94,7 @@ header {
     font-weight: 200;
     font-size: 40px;
     left: 10%;
+    
 }
 
 .transit {
@@ -124,6 +102,8 @@ header {
     flex-direction:column;
     margin-left: 45%;
     padding: 20px;
+    font-size: 22px;
+    font-family: "Dancing Script", "cursive";
     font-weight: bold;
 }  
 
@@ -133,14 +113,14 @@ header {
     transition-delay: 0.05s;   
 }
 
-.transit svg {
+svg {
     display:inline-flex;
     flex-direction: row;
-    margin-left: 5%;
+    margin-left: 47%;
     mix-blend-mode: multiply;  
 }
 
-.transit svg:hover {
+ svg:hover {
     fill: red;
     transition: all 0.9s ease-in-out;
     transition-delay: 0.05s;
@@ -148,7 +128,6 @@ header {
 }
 
 
-}
 
 /*.invite h2 {
     animation: transitionIn 0.8s;

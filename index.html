@@ -13,35 +13,43 @@
 </head>
 <body>
     
-      <header>  
-            <img class="twin twin1" src="images/baby1.jpg" alt="baby1">     
-            <img class="twin twin2" src="images/baby1.jpg" alt="baby1"> 
-      </header> 
+   <header>  
+          <img class="twin twin1" src="images/baby1.jpg" alt="baby1">     
+          <img class="twin twin2" src="images/baby1.jpg" alt="baby1"> 
+   </header> 
+
+
        <!--SVG linking with HTML-->
-        <div class="birthday">
-          <img src="images/envelope.svg" alt="redenvelope">
-       
-            <h3>You are invited to a</h3>
-            <h1 class="animate__animated animate__zoomIn animate__infinite">Birthday</h1>
-            <h2 class="animate__animated animate__zoomIn animate__infinite">Party</h2>
-        </div>
+    <main>
+       <svg>
+           <use class="img" xlink:href="images/envelope.svg#envelope"></use>
+       </svg>
+
+
+    <div class="birthday">
+              <h3>You are invited to a</h3>
+              <h1 class="animate__animated animate__zoomIn animate__infinite">Birthday</h1>
+              <h2 class="animate__animated animate__zoomIn animate__infinite">Party</h2>
+    </div>
      
-      <section>
+   <section>
           <!--div class="invite"-->
-            <h2 class="invite">We are celebrating our twins birthday and you are cordially invited.</h2> 
-            <p class="transit">
+         <h2 class="invite">We are celebrating our twins birthday and you are cordially invited.</h2> 
+         <p class="transit">
              Date : --/--/-- 
              <span>Time : 6 pm onwards</span>
              <span>Venue : XxYy</span>
-
+         </p>
      <!--SVG Code in HTML-->  
+
            <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" fill="yellow" stroke="white"  stroke-width="10">
             <circle cx="50" cy="50" r="40"/>
             <path d="M50 35V50  H35" stroke-linecap="round" stroke-linejoin="round"/> 
            </svg> 
       
-         </p>
          
-     </section>
+         
+   </section>
+</main>
 </body>
 </html>
