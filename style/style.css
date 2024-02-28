@@ -34,15 +34,15 @@ header {
     75%{transform: scale(1.2) rotate(-30deg);}
     100% {transform: scale(1) rotate(0deg);}
 }
-
-.img {
+/* .env { 
+    position: relative; 
     display: flex;
     flex-direction: column;
     width: 40px;
     max-width: 100px;
     height: 20px;
 }
-
+*/
 
 .birthday {
     display: flex;
